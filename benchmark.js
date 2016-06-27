@@ -2,7 +2,7 @@ var apiBenchmark = require('api-benchmark');
 var fs = require('fs');
 
 var service = {
-  server1: "http://localhost:3000/data.json"
+  server1: "https://nodeapitest.herokuapp.com/"
 };
 
 var routes = { route1: { method: 'get', route: 'data.json' }, route2: { method: 'get', route: 'data.json' } };
